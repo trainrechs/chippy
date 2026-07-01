@@ -1,8 +1,8 @@
 [package]
-name = "chip8-desktop"
+name = "chippy-desktop"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-chip8-core = { path = "../chip8-core" }
+chippy-core = { path = "../chippy-core" }
 raylib = "6.0.0"

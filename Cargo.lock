@@ -76,17 +76,17 @@ dependencies = [
 ]
 
 [[package]]
-name = "chip8-core"
+name = "chippy-core"
 version = "0.1.0"
 dependencies = [
  "rand",
 ]
 
 [[package]]
-name = "chip8-desktop"
+name = "chippy-desktop"
 version = "0.1.0"
 dependencies = [
- "chip8-core",
+ "chippy-core",
  "raylib",
 ]
 

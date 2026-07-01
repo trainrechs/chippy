@@ -1,6 +1,6 @@
 use std::env;
 
-use chip8_core::Chip8;
+use chippy_core::Chip8;
 use raylib::prelude::*;
 
 const KEYS: [KeyboardKey; 16] = [
