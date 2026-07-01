@@ -5,7 +5,7 @@ A Chip-8 emulator written in Rust, with a desktop frontend built on Raylib. Most
  
 Requires [Rust](https://rustup.rs/).
  
-```
+```bash
 git clone https://github.com/yourusername/chip8-emulator
 cd chip8-emulator
 cargo build --release -p chip8-desktop
@@ -16,7 +16,7 @@ cargo build --release -p chip8-desktop
 ## Running
  
 ```
-cargo run --release -p chip8-desktop -- <path/to/rom.ch8> [sound.wav] [ticks_per_frame]
+cargo run --release -p chip8-desktop -- <path/to/rom.c8> [sound.wav] [ticks_per_frame]
 ```
  
 | Argument | Required | Description |
